@@ -314,69 +314,76 @@ const StarbucksPresentation = () => {
     },
 
     // Slide 8: Competitors Analysis
-    {
-      title: "ՄՐՑԱԿԻՑՆԵՐԻ ՎԵՐԼՈՒԾՈՒԹՅՈՒՆ",
-      subtitle: "Հայաստանի սուրճի շուկայի խաղացողներ",
-      content: (
-        <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
-              <h4 className="font-bold text-lg mb-2 text-purple-800">🏪 Coffee House Company</h4>
-              <p className="text-sm mb-2"><strong>Դիրք:</strong> #1 Տեղական լիդեր</p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>• 40+ մասնաճյուղ ՀՀ-ում և շրջաններում</li>
-                <li>• 230+ տեսակի խմիչքներ</li>
-                <li>• Սեփական սուրճի պատրաստում (2020-ից)</li>
-                <li>• Գին: 500-2000 դրամ</li>
-                <li>• Loyalty ծրագիր՝ 3-10% cashback (4 մակարդակ) և լրացուցիչ բոնուսներ</li>
-                <li>• Հիմնադրում՝ 2015թ.</li>
-              </ul>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-500">
-              <h4 className="font-bold text-lg mb-2 text-green-800">☕ CoffeeShop Company</h4>
-              <p className="text-sm mb-2"><strong>Դիրք:</strong> Premium segment</p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>• 5+ պրեմիում տեղակայումներ</li>
-                <li>• Նստելու հարմար տարածքներ</li>
-                <li>• Եվրոպական ոճ</li>
-                <li>• Գին: 1000-2500 դրամ</li>
-                <li>• Նախատեսված բիզնես և աշխատանքային հանդիպումների համար</li>
-              </ul>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-500">
-              <h4 className="font-bold text-lg mb-2 text-blue-800">💰 Cofix Armenia</h4>
-              <p className="text-sm mb-2"><strong>Դիրք:</strong> Value Leader</p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>• Իսրայելական Ֆրանչիզա</li>
-                <li>• Ֆիքսված գներ՝ 800-2300 դրամ</li>
-                <li>• 10+ մասնաճյուղ (Հյուսիսային պողոտա, Երևան Մոլ, RAU, AUA, Մեգամոլ և այլն)</li>
-                <li>• Գլխավոր ֆրանչայզ՝ Galaxy Group
-                <li>• Նպատակ՝ ագրեսիվ ընդլայնում</li>
-              </ul>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-amber-500">
-              <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Specialty խաղացողներ</h4>
-              <p className="text-sm mb-2"><strong>Դիրք:</strong> Niche/Quality</p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>• Jazzve, Lumen Coffee, Vol 1, AfroLab, J Space, Ground Zero</li>
-                <li>• Երրորդ ալիքի սրճարան</li>
-                <li>• Մեկ երկրից ծագող հատիկներ, թարմ պատրաստում</li>
-                <li>• Գին: 1200-3000 դրամ</li>
-                <li>• Փոքր, բայց հավատարիմ լսարան</li>
-                <li>• Հիմնականում Freelancer-ների և Coworking համայնքի համար</li>
-              </ul>
-            </div>
-          </div>
-          <div className="bg-red-50 p-4 rounded-lg border-2 border-red-300">
-            <h4 className="font-bold mb-2">⚠️ Ավանդական սուրճի ցանցեր</h4>
-            <p className="text-sm text-gray-700">
-              Coffee Shop, Impresso և բազմաթիվ փոքր սրճարաններ, որոնք մատուցում են նաև ուտելիք։ 
-              Ուժեղ տեղական ներկայություն, ցածր գներ, ավանդական հայկական սուրճ։
-            </p>
-          </div>
+{
+  title: "ՄՐՑԱԿԻՑՆԵՐԻ ՎԵՐԼՈՒԾՈՒԹՅՈՒՆ",
+  subtitle: "Հայաստանի սուրճի շուկայի խաղացողներ", 
+  content: (
+    <div className="space-y-4">
+      <div className="grid grid-cols-2 gap-4">
+        {/* Coffee House Company */}
+        <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
+          <h4 className="font-bold text-lg mb-2 text-purple-800">🏪 Coffee House Company</h4>
+          <p className="text-sm mb-2"><strong>Դիրք:</strong> #1 Տեղական լիդեր</p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>• 40+ մասնաճյուղ ՀՀ-ում և շրջաններում</li>
+            <li>• 230+ տեսակի խմիչքներ</li>
+            <li>• Սեփական սուրճի պատրաստում (2020-ից)</li>
+            <li>• Գին: 500-2000 դրամ</li>
+            <li>• Loyalty ծրագիր՝ 3-10% cashback (4 մակարդակ) և լրացուցիչ բոնուսներ</li>
+            <li>• Հիմնադրում՝ 2015թ.</li>
+          </ul>
         </div>
-      )
-    },
+
+        {/* Cofix Armenia - ՈՒՂՂՎԱԾ */}
+        <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-500">
+          <h4 className="font-bold text-lg mb-2 text-blue-800">💰 Cofix Armenia</h4>
+          <p className="text-sm mb-2"><strong>Դիրք:</strong> Value Leader</p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>• Իսրայելական Ֆրանշիզա</li>
+            <li>• Ֆիքսված գներ՝ 800-2300 դրամ</li>
+            <li>• 10+ մասնաճյուղ (Հյուսիսային պողոտա, Երևան Մոլ, RAU, AUA, Մեգամոլ և այլն)</li>
+            <li>• Գլխավոր ֆրանշայզ՝ Galaxy Group</li>
+            <li>• Նպատակ՝ ագրեսիվ ընդլայնում</li>
+          </ul>
+        </div>
+
+        {/* CoffeeShop Company */}
+        <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-500">
+          <h4 className="font-bold text-lg mb-2 text-green-800">☕ CoffeeShop Company</h4>
+          <p className="text-sm mb-2"><strong>Դիրք:</strong> Premium segment</p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>• 5+ պրեմիում տեղակայումներ</li>
+            <li>• Նստելու հարմար տարածքներ</li>
+            <li>• Եվրոպական ոճ</li>
+            <li>• Գին: 1000-2500 դրամ</li>
+            <li>• Նախատեսված բիզնես և աշխատանքային հանդիպումների համար</li>
+          </ul>
+        </div>
+
+        {/* Specialty խաղացողներ */}
+        <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-amber-500">
+          <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Specialty խաղացողներ</h4>
+          <p className="text-sm mb-2"><strong>Դիրք:</strong> Niche/Quality</p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>• Jazzve, Lumen Coffee, Vol 1, AfroLab, J Space, Ground Zero</li>
+            <li>• Երրորդ ալիքի սրճարան</li>
+            <li>• Մեկ երկրից ծագող հատիկներ, թարմ պատրաստում</li>
+            <li>• Գին: 1200-3000 դրամ</li>
+            <li>• Փոքր, բայց հավատարիմ լսարան</li>
+            <li>• Հիմնականում Freelancer-ների և Coworking համայնքի համար</li>
+          </ul>
+        </div>
+      </div>
+      <div className="bg-red-50 p-4 rounded-lg border-2 border-red-300">
+        <h4 className="font-bold mb-2">⚠️ Ավանդական սուրճի ցանցեր</h4>
+        <p className="text-sm text-gray-700">
+          Coffee Shop, Impresso և բազմաթիվ փոքր սրճարաններ, որոնք մատուցում են նաև ուտելիք։ 
+          Ուժեղ տեղական ներկայություն, ցածր գներ, ավանդական հայկական սուրճ։
+        </p>
+      </div>
+    </div>
+  )
+}
 
     // Slide 9: Price Analysis
     {
