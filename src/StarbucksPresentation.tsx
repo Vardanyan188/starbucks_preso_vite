@@ -49,7 +49,7 @@ const StarbucksPresentation = () => {
         </div>
       )
     },
-
+ 
     // Slide 3: Starbucks Global Overview
     {
       title: "ՄԱՍ I: STARBUCKS GLOBAL",
