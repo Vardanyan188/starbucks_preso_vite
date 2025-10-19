@@ -380,7 +380,7 @@ const StarbucksPresentation = () => {
       </div>
     </div>
   )
-}
+},
 
     // Slide 9: Price Analysis
     {
