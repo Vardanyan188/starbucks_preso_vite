@@ -130,18 +130,23 @@ const StarbucksPresentation = () => {
               </ul>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500 col-span-2">
-              <h4 className="font-bold text-lg mb-2">5️⃣ Փոխարինողներ</h4>
-              <p className="text-sm mb-2"><strong>Գնահատական: 3/5 (Միջին)</strong></p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>✗ Թեյ, energy drinks, RTD coffee</li>
-                <li>✗ Տնային սուրճի պատրաստում</li>
-                <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
-              </ul>
-            </div>
-          </div>
-          <div className="bg-gray-100 p-4 rounded-lg text-center">
-            <p className="font-bold text-lg">📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցություն, բայց ուժեղ դիրքեր</p>
-          </div>
+                <h4 className="font-bold text-lg mb-2">5️⃣ Փոխարինողներ</h4>
+                <p className="text-sm mb-2"><strong>Գնահատական: 3/5 (Միջին)</strong></p>
+                <ul className="text-sm space-y-1 text-gray-700">
+                  <li>✗ Թեյ, energy drinks, RTD coffee</li>
+                  <li>✗ Տնային սուրճի պատրաստում</li>
+                  <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
+                </ul>
+              </div>
+              
+              <p className="text-sm text-gray-700 mt-2">
+                ☕ <strong>Starbucks Rewards</strong> ծրագիրը անվճար հավատարմության համակարգ է, որը թույլ է տալիս յուրաքանչյուր գնումից հավաքել <em>Stars (աստղեր)</em> և փոխանակել դրանք անվճար սուրճի, ուտեստների կամ այլ բոնուսների։
+              </p>
+              
+              <div className="bg-gray-100 p-4 rounded-lg text-center">
+                <p className="font-bold text-lg">📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցություն, բայց ուժեղ դիրքեր</p>
+              </div>
+
         </div>
       )
     },
