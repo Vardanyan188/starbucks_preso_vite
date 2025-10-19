@@ -334,7 +334,6 @@ const StarbucksPresentation = () => {
           </ul>
         </div>
 
-        {/* Cofix Armenia - ՈՒՂՂՎԱԾ */}
         <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-500">
           <h4 className="font-bold text-lg mb-2 text-blue-800">💰 Cofix Armenia</h4>
           <p className="text-sm mb-2"><strong>Դիրք:</strong> Value Leader</p>
@@ -347,7 +346,6 @@ const StarbucksPresentation = () => {
           </ul>
         </div>
 
-        {/* CoffeeShop Company */}
         <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-500">
           <h4 className="font-bold text-lg mb-2 text-green-800">☕ CoffeeShop Company</h4>
           <p className="text-sm mb-2"><strong>Դիրք:</strong> Premium segment</p>
@@ -360,7 +358,6 @@ const StarbucksPresentation = () => {
           </ul>
         </div>
 
-        {/* Specialty խաղացողներ */}
         <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-amber-500">
           <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Specialty խաղացողներ</h4>
           <p className="text-sm mb-2"><strong>Դիրք:</strong> Niche/Quality</p>
