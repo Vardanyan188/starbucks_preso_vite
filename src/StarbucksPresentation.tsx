@@ -78,15 +78,14 @@ const StarbucksPresentation = () => {
             <ul className="space-y-2 text-gray-700">
               <li><strong>Հիմնադրում:</strong> 1971թ., Սիեթլ, ԱՄՆ</li>
               <li><strong>CEO:</strong> Լաքսման Նարասիմհան (2023-ից)</li>
-              <li><strong>Առաքելություն:</strong> "To inspire and nurture the human spirit"</li>
-              <li><strong>Բիզնես մոդել:</strong> 70% սեփական խանութներ, 25% franchise, 5% retail</li>
+              <li><strong>Առաքելություն:</strong> "To inspire and nurture the human spirit". Մարդկանց սիրտն ու հոգին լուսավորել:</li>
+              <li><strong>Բիզնես մոդել:</strong> 70% սեփական խանութներ, 25% Ֆրանշիզա(Franchise), 5% Մանրածախ առևտուր(Retail)</li>
             </ul>
           </div>
         </div>
       )
     },
 
-    // Slide 4: Porter's 5 Forces - Global
     // Slide 4: Porter's 5 Forces - Global
 {
   title: "PORTER-Ի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
@@ -101,8 +100,8 @@ const StarbucksPresentation = () => {
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
             <li>✓ Բազմաթիվ մատակարարներ 30+ երկրներից</li>
-            <li>✗ Գների տատանումներ commodities շուկայում</li>
-            <li>✓ C.A.F.E. ծրագիր՝ կայուն մատակարարում</li>
+            <li>✗ Գների տատանումներ հումքային շուկայում</li>
+            <li>✓ Coffee and Farmer Equity ծրագիր՝ արդար առևտուր և էկոլոգիա</li>
           </ul>
         </div>
 
@@ -124,7 +123,7 @@ const StarbucksPresentation = () => {
             <strong>Գնահատական: 4/5 (Բարձր)</strong>
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
-            <li>✗ Costa, Dunkin', McCafe, Tim Hortons</li>
+            <li>✗ Costa, Dunkin Donuts, McCafe, Tim Hortons</li>
             <li>✗ Հագեցած շուկա</li>
             <li>✓ Բրենդային առավելություն</li>
           </ul>
@@ -148,25 +147,12 @@ const StarbucksPresentation = () => {
             <strong>Գնահատական: 3/5 (Միջին)</strong>
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
-            <li>✗ Թեյ, energy drinks, RTD coffee</li>
+            <li>✗ Թեյ, Energy drinks, RTD Coffee</li>
             <li>✗ Տնային սուրճի պատրաստում</li>
             <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
           </ul>
         </div>
       </div>
-
-      <p className="text-sm text-gray-700 mt-2">
-        ☕ <strong>Starbucks Rewards</strong> ծրագիրը անվճար հավատարմության համակարգ է, 
-        որը թույլ է տալիս յուրաքանչյուր գնումից հավաքել <em>Stars (աստղեր)</em> 
-        և փոխանակել դրանք անվճար սուրճի, ուտեստների կամ այլ բոնուսների։
-      </p>
-
-      <p className="text-sm text-gray-700 mt-2">
-        <strong>RTD (Ready-To-Drink)</strong> նշանակում է պատրաստ խմիչք։
-        Սրանք նախապես պատրաստված Starbucks ըմպելիքներ են, որոնք կարելի է
-        գնել խանութներում կամ սուպերմարկետներում,
-        օրինակ՝ Frappuccino շշեր, Cold Brew, կամ Doubleshot Espresso։
-      </p>
 
       <div className="bg-gray-100 p-4 rounded-lg text-center">
         <p className="font-bold text-lg">
@@ -191,8 +177,8 @@ const StarbucksPresentation = () => {
               <li>✓ Ամենաճանաչելի սուրճի բրենդը աշխարհում</li>
               <li>✓ Ուժեղ թվային էկոհամակարգ (Rewards, Mobile Order)</li>
               <li>✓ Գլոբալ ցանց 38,000+ տեղամասով</li>
-              <li>✓ Premium փորձառություն և "third place" կոնցեպտ</li>
-              <li>✓ Կայուն մատակարարման շղթա (C.A.F.E.)</li>
+              <li>✓ Premium փորձառություն և "Third Place" կոնցեպտ</li>
+              <li>✓ Կայուն մատակարարման շղթա - Coffee and Farmer Equity(C.A.F.E.)</li>
             </ul>
           </div>
           <div className="bg-red-50 p-5 rounded-lg border-2 border-red-300">
@@ -204,7 +190,7 @@ const StarbucksPresentation = () => {
               <li>✗ Մատակարարման շղթայի բարդություն</li>
               <li>✗ Կախվածություն ԱՄՆ շուկայից (40% եկամուտներ)</li>
               <li>✗ Օպերացիոն ծախսերի բարձր մակարդակ</li>
-              <li>✗ Չափելիության մարտահրավերներ premium-ի պահպանման հետ</li>
+              <li>✗ Չափելիության մարտահրավերներ Premium-ի պահպանման հետ</li>
             </ul>
           </div>
           <div className="bg-blue-50 p-5 rounded-lg border-2 border-blue-300">
@@ -213,10 +199,10 @@ const StarbucksPresentation = () => {
             </h3>
             <ul className="space-y-2 text-sm text-gray-700">
               <li>✓ Ընդլայնում զարգացող շուկաներում (Ասիա, Աֆրիկա)</li>
-              <li>✓ Cold brew և RTD սեգմենտների աճ</li>
-              <li>✓ Առողջ և sustainable արտադրանքների պահանջ</li>
+              <li>✓ Cold Brew և RTD սեգմենտների աճ</li>
+              <li>✓ Առողջ և կայուն արտադրանքների պահանջ</li>
               <li>✓ Թվայնացում և AI անհատականացում</li>
-              <li>✓ Նոր ֆորմատներ (drive-thru, pick-up only)</li>
+              <li>✓ Նոր ֆորմատներ` մեքենայից, առանց նստելու (drive-thru, pick-up only)</li>
             </ul>
           </div>
           <div className="bg-yellow-50 p-5 rounded-lg border-2 border-yellow-300">
@@ -242,7 +228,7 @@ const StarbucksPresentation = () => {
       content: (
         <div className="flex flex-col items-center justify-center h-full space-y-8">
           <div className="text-center space-y-6">
-            <h2 className="text-4xl font-bold text-green-800">🇦🇲 Starbucks մտնում է Հայաստան</h2>
+            <h2 className="text-4xl font-bold text-green-800">Starbucks-ը մտնում է Հայաստան</h2>
             <div className="bg-green-50 p-8 rounded-lg border-2 border-green-300 max-w-2xl mx-auto">
               <p className="text-xl text-gray-700 mb-4">
                 Հայաստանը ներկայացնում է եզակի հնարավորություն Starbucks-ի համար՝
@@ -292,9 +278,9 @@ const StarbucksPresentation = () => {
               <h4 className="font-bold text-lg mb-3 text-gray-800">📊 Շուկայի բնութագրեր</h4>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>• Կայուն պահանջարկ 2019-ից</li>
-                <li>• Hot coffee դոմինանտ սեգմենտ</li>
-                <li>• Coffee machines աճ՝ 13.1% CAGR</li>
-                <li>• Աճում է specialty coffee հետաքրքրությունը</li>
+                <li>• Տաք սուրճը գերակշռող սեգմենտ է</li>
+                <li>• Սուրճի սարքերի աճ՝ 13.1% տարեկան</li>
+                <li>• Աճում է որակյալ սուրճի հանդեպ հետաքրքրությունը</li>
               </ul>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md">
@@ -311,9 +297,9 @@ const StarbucksPresentation = () => {
           <div className="bg-amber-50 p-4 rounded-lg border-2 border-amber-300">
             <h4 className="font-bold text-lg mb-3 text-amber-800">☕ Հայկական սուրճի մշակույթ</h4>
             <p className="text-sm text-gray-700">
-              <strong>Սուրճ (Սուրջ):</strong> Հայաստանում սուրճը ավելին է, քան պարզապես խմիչք։ Այն սոցիալական հավաքների կենտրոնական մասն է։ 
-              Ավանդական հայկական սուրճը (նման թուրքականին) պատրաստվում է ջեզվեում, ունի հաստ հյուսվածք և ուժեղ համ։ 
-              Սակայն նոր սերունդը ավելի ու ավելի հետաքրքրվում է specialty և արևմտյան ոճի սուրճով։
+              <strong>Սուրճ:</strong> Հայաստանում սուրճը ավելին է, քան պարզապես խմիչք։ Այն սոցիալական հավաքների կենտրոնական մասն է։
+              Ավանդական հայկական սուրճը ունի խիտ հյուսվածք և ուժեղ համ։ 
+              Սակայն նոր սերունդը ավելի ու ավելի հետաքրքրվում է որակյալ և արևմտյան ոճով։
             </p>
           </div>
         </div>
@@ -331,44 +317,46 @@ const StarbucksPresentation = () => {
               <h4 className="font-bold text-lg mb-2 text-purple-800">🏪 Coffee House Company</h4>
               <p className="text-sm mb-2"><strong>Դիրք:</strong> #1 Տեղական լիդեր</p>
               <ul className="text-sm space-y-1 text-gray-700">
-                <li>• 40+ մասնաճյուղ ՀՀ-ում</li>
+                <li>• 40+ մասնաճյուղ ՀՀ-ում և շրջաններում</li>
                 <li>• 230+ տեսակի խմիչքներ</li>
-                <li>• Սեփական roasting</li>
-                <li>• Գին: 800-2000 դրամ</li>
-                <li>• Loyalty ծրագիր՝ 3-10% cashback</li>
+                <li>• Սեփական սուրճի պատրաստում (2020-ից)</li>
+                <li>• Գին: 500-2000 դրամ</li>
+                <li>• Loyalty ծրագիր՝ 3-10% cashback (4 մակարդակ) և լրացուցիչ բոնուսներ</li>
+                <li>• Հիմնադրում՝ 2015թ.</li>
               </ul>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-500">
               <h4 className="font-bold text-lg mb-2 text-green-800">☕ CoffeeShop Company</h4>
               <p className="text-sm mb-2"><strong>Դիրք:</strong> Premium segment</p>
               <ul className="text-sm space-y-1 text-gray-700">
-                <li>• 5+ premium locations</li>
+                <li>• 5+ պրեմիում տեղակայումներ</li>
                 <li>• Նստելու հարմար տարածքներ</li>
                 <li>• Եվրոպական ոճ</li>
                 <li>• Գին: 1000-2500 դրամ</li>
-                <li>• Նախատեսված business/coworking</li>
+                <li>• Նախատեսված բիզնես և աշխատանքային հանդիպումների համար</li>
               </ul>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-500">
               <h4 className="font-bold text-lg mb-2 text-blue-800">💰 Cofix Armenia</h4>
               <p className="text-sm mb-2"><strong>Դիրք:</strong> Value Leader</p>
               <ul className="text-sm space-y-1 text-gray-700">
-                <li>• Իսրայելական franchise</li>
-                <li>• Fixed price՝ 600-1500 դրամ</li>
-                <li>• Yerevan Mall location</li>
-                <li>• Նպատակ՝ 10+ մասնաճյուղ 2024-ին</li>
-                <li>• Մատչելիություն առաջնային</li>
+                <li>• Իսրայելական Ֆրանչիզա</li>
+                <li>• Ֆիքսված գներ՝ 800-2300 դրամ</li>
+                <li>• 10+ մասնաճյուղ (Հյուսիսային պողոտա, Երևան Մոլ, RAU, AUA, Մեգամոլ և այլն)</li>
+                <li>• Գլխավոր ֆրանչայզ՝ Galaxy Group
+                <li>• Նպատակ՝ ագրեսիվ ընդլայնում</li>
               </ul>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-amber-500">
               <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Specialty խաղացողներ</h4>
               <p className="text-sm mb-2"><strong>Դիրք:</strong> Niche/Quality</p>
               <ul className="text-sm space-y-1 text-gray-700">
-                <li>• Lumen Coffee, Vol 1, AfroLab</li>
-                <li>• Third-wave coffee</li>
-                <li>• Single-origin beans</li>
+                <li>• Jazzve, Lumen Coffee, Vol 1, AfroLab, J Space, Ground Zero</li>
+                <li>• Երրորդ ալիքի սրճարան</li>
+                <li>• Մեկ երկրից ծագող հատիկներ, թարմ պատրաստում</li>
                 <li>• Գին: 1200-3000 դրամ</li>
                 <li>• Փոքր, բայց հավատարիմ լսարան</li>
+                <li>• Հիմնականում Freelancer-ների և Coworking համայնքի համար</li>
               </ul>
             </div>
           </div>
