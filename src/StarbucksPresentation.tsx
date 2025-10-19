@@ -87,69 +87,88 @@ const StarbucksPresentation = () => {
     },
 
     // Slide 4: Porter's 5 Forces - Global
-    {
-      title: "PORTER-Ի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
-      subtitle: "Մրցակցային միջավայրի վերլուծություն",
-      content: (
-        <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
-              <h4 className="font-bold text-lg mb-2">1️⃣ Մատակարարների ուժ</h4>
-              <p className="text-sm mb-2"><strong>Գնահատական: 3/5 (Միջին)</strong></p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>✓ Բազմաթիվ մատակարարներ 30+ երկրներից</li>
-                <li>✗ Գների տատանումներ commodities շուկայում</li>
-                <li>✓ C.A.F.E. ծրագիր՝ կայուն մատակարարում</li>
-              </ul>
-            </div>
-            <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
-              <h4 className="font-bold text-lg mb-2">2️⃣ Գնորդների ուժ</h4>
-              <p className="text-sm mb-2"><strong>Գնահատական: 4/5 (Բարձր)</strong></p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>✓ 30M+ Rewards անդամներ (ԱՄՆ)</li>
-                <li>✗ Գնային զգայունություն ապրանքների համար</li>
-                <li>✓ Բարձր հավատարմություն բրենդին</li>
-              </ul>
-            </div>
-            <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
-              <h4 className="font-bold text-lg mb-2">3️⃣ Առկա մրցակիցներ</h4>
-              <p className="text-sm mb-2"><strong>Գնահատական: 4/5 (Բարձր)</strong></p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>✗ Costa, Dunkin', McCafe, Tim Hortons</li>
-                <li>✗ Հագեցած շուկա</li>
-                <li>✓ Բրենդային առավելություն</li>
-              </ul>
-            </div>
-            <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
-              <h4 className="font-bold text-lg mb-2">4️⃣ Նոր մուտքեր</h4>
-              <p className="text-sm mb-2"><strong>Գնահատական: 2/5 (Ցածր)</strong></p>
-              <ul className="text-sm space-y-1 text-gray-700">
-                <li>✓ Բարձր մուտքային ծախսեր</li>
-                <li>✓ Ուժեղ բրենդային պատնեշներ</li>
-                <li>✓ Էկոհամակարգի առավելություն</li>
-              </ul>
-            </div>
-            <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500 col-span-2">
-                <h4 className="font-bold text-lg mb-2">5️⃣ Փոխարինողներ</h4>
-                <p className="text-sm mb-2"><strong>Գնահատական: 3/5 (Միջին)</strong></p>
-                <ul className="text-sm space-y-1 text-gray-700">
-                  <li>✗ Թեյ, energy drinks, RTD coffee</li>
-                  <li>✗ Տնային սուրճի պատրաստում</li>
-                  <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
-                </ul>
-              </div>
-              
-              <p className="text-sm text-gray-700 mt-2">
-                ☕ <strong>Starbucks Rewards</strong> ծրագիրը անվճար հավատարմության համակարգ է, որը թույլ է տալիս յուրաքանչյուր գնումից հավաքել <em>Stars (աստղեր)</em> և փոխանակել դրանք անվճար սուրճի, ուտեստների կամ այլ բոնուսների։
-              </p>
-              
-              <div className="bg-gray-100 p-4 rounded-lg text-center">
-                <p className="font-bold text-lg">📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցություն, բայց ուժեղ դիրքեր</p>
-              </div>
-
+    // Slide 4: Porter's 5 Forces - Global
+{
+  title: "PORTER-Ի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
+  subtitle: "Մրցակցային միջավայրի վերլուծություն",
+  content: (
+    <div className="space-y-4">
+      <div className="grid grid-cols-2 gap-4">
+        <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
+          <h4 className="font-bold text-lg mb-2">1️⃣ Մատակարարների ուժ</h4>
+          <p className="text-sm mb-2">
+            <strong>Գնահատական: 3/5 (Միջին)</strong>
+          </p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>✓ Բազմաթիվ մատակարարներ 30+ երկրներից</li>
+            <li>✗ Գների տատանումներ commodities շուկայում</li>
+            <li>✓ C.A.F.E. ծրագիր՝ կայուն մատակարարում</li>
+          </ul>
         </div>
-      )
-    },
+
+        <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+          <h4 className="font-bold text-lg mb-2">2️⃣ Գնորդների ուժ</h4>
+          <p className="text-sm mb-2">
+            <strong>Գնահատական: 4/5 (Բարձր)</strong>
+          </p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>✓ 30M+ Rewards անդամներ (ԱՄՆ)</li>
+            <li>✗ Գնային զգայունություն ապրանքների համար</li>
+            <li>✓ Բարձր հավատարմություն բրենդին</li>
+          </ul>
+        </div>
+
+        <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
+          <h4 className="font-bold text-lg mb-2">3️⃣ Առկա մրցակիցներ</h4>
+          <p className="text-sm mb-2">
+            <strong>Գնահատական: 4/5 (Բարձր)</strong>
+          </p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>✗ Costa, Dunkin', McCafe, Tim Hortons</li>
+            <li>✗ Հագեցած շուկա</li>
+            <li>✓ Բրենդային առավելություն</li>
+          </ul>
+        </div>
+
+        <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
+          <h4 className="font-bold text-lg mb-2">4️⃣ Նոր մուտքեր</h4>
+          <p className="text-sm mb-2">
+            <strong>Գնահատական: 2/5 (Ցածր)</strong>
+          </p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>✓ Բարձր մուտքային ծախսեր</li>
+            <li>✓ Ուժեղ բրենդային պատնեշներ</li>
+            <li>✓ Էկոհամակարգի առավելություն</li>
+          </ul>
+        </div>
+
+        <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500 col-span-2">
+          <h4 className="font-bold text-lg mb-2">5️⃣ Փոխարինողներ</h4>
+          <p className="text-sm mb-2">
+            <strong>Գնահատական: 3/5 (Միջին)</strong>
+          </p>
+          <ul className="text-sm space-y-1 text-gray-700">
+            <li>✗ Թեյ, energy drinks, RTD coffee</li>
+            <li>✗ Տնային սուրճի պատրաստում</li>
+            <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
+          </ul>
+        </div>
+      </div>
+
+      <p className="text-sm text-gray-700 mt-2">
+        ☕ <strong>Starbucks Rewards</strong> ծրագիրը անվճար հավատարմության համակարգ է, 
+        որը թույլ է տալիս յուրաքանչյուր գնումից հավաքել <em>Stars (աստղեր)</em> 
+        և փոխանակել դրանք անվճար սուրճի, ուտեստների կամ այլ բոնուսների։
+      </p>
+
+      <div className="bg-gray-100 p-4 rounded-lg text-center">
+        <p className="font-bold text-lg">
+          📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցություն, բայց ուժեղ դիրքեր
+        </p>
+      </div>
+    </div>
+  ),
+},
 
     // Slide 5: SWOT Global
     {
