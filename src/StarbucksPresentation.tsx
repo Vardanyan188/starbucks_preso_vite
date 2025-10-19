@@ -86,7 +86,8 @@ const StarbucksPresentation = () => {
       )
     },
 
-    // Slide 4: Porter's 5 Forces - Global
+
+// Slide 4: Porter's 5 Forces - Global
 {
   title: "PORTER-Ի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
   subtitle: "Մրցակցային միջավայրի վերլուծություն",
@@ -153,6 +154,12 @@ const StarbucksPresentation = () => {
           </ul>
         </div>
       </div>
+
+      <p className="text-sm text-gray-700 mt-2">
+        ☕ <strong>Starbucks Rewards</strong> ծրագիրը անվճար հավատարմության համակարգ է, 
+        որը թույլ է տալիս յուրաքանչյուր գնումից հավաքել <em>Stars (աստղեր)</em> 
+        և փոխանակել դրանք անվճար սուրճի, ուտեստների կամ այլ բոնուսների։
+      </p>
 
       <div className="bg-gray-100 p-4 rounded-lg text-center">
         <p className="font-bold text-lg">
