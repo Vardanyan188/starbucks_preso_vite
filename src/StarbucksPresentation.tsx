@@ -1051,7 +1051,7 @@ const StarbucksPresentation = () => {
                 <p className="text-xs font-semibold text-green-800">Մեղմացում:</p>
                 <ul className="text-xs text-gray-700 ml-3 mt-1">
                   <li>• Ճկուն գնային քաղաքականություն</li>
-                  <li>• Հնարավոր վճարումներ AMD/USD տարբերակով</li>
+                  <li>• Նախորոք ֆիքսել գների պայմանագրերը մատակարարների հետ</li>
                   <li>• Կենտրոնացում արժեքի վրա՝ ոչ շքեղության</li>
                   <li>• Հավատարմության ծրագրեր հաճախորդների պահման համար</li>
                 </ul>
