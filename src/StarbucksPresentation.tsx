@@ -15,7 +15,7 @@ const StarbucksPresentation = () => {
           <div className="text-center space-y-4">
             <h1 className="text-5xl font-bold text-green-800">STARBUCKS</h1>
             <p className="text-2xl text-gray-700">Հայաստանի շուկա</p>
-            <p className="text-lg text-gray-600 mt-8">Porter-ի 5 ուժերի վերլուծություն և ռազմավարական պլանավորում</p>
+            <p className="text-lg text-gray-600 mt-8">Փորթերի 5 ուժերի վերլուծություն և ռազմավարական պլանավորում</p>
           </div>
         </div>
       )
@@ -31,7 +31,7 @@ const StarbucksPresentation = () => {
             <h3 className="font-bold text-xl mb-4 text-green-800">Մաս I: Global Starbucks</h3>
             <ul className="space-y-2 text-gray-700">
               <li>• Ընկերության ընդհանուր նկարագիր</li>
-              <li>• Porter-ի 5 ուժերի վերլուծություն</li>
+              <li>• Փորթերի 5 ուժերի վերլուծություն</li>
               <li>• SWOT վերլուծություն</li>
               <li>• Գլոբալ ռազմավարություն</li>
             </ul>
@@ -41,7 +41,7 @@ const StarbucksPresentation = () => {
             <ul className="space-y-2 text-gray-700">
               <li>• Հայաստանի սուրճի շուկա</li>
               <li>• Մրցակիցների վերլուծություն</li>
-              <li>• Porter-ի 5 ուժեր ՀՀ-ում</li>
+              <li>• Փորթերի 5 ուժեր ՀՀ-ում</li>
               <li>• SWOT և գնային վերլուծություն</li>
               <li>• Ռազմավարական առաջարկներ</li>
             </ul>
@@ -89,7 +89,7 @@ const StarbucksPresentation = () => {
 
 // Slide 4: Porter's 5 Forces - Global
 {
-  title: "PORTER-Ի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
+  title: "Փորթերի 5 ՈՒԺԵՐ: GLOBAL STARBUCKS",
   subtitle: "Մրցակցային միջավայրի վերլուծություն",
   content: (
     <div className="space-y-4">
@@ -102,7 +102,7 @@ const StarbucksPresentation = () => {
           <ul className="text-sm space-y-1 text-gray-700">
             <li>✓ Բազմաթիվ մատակարարներ 30+ երկրներից</li>
             <li>✗ Գների տատանումներ հումքային շուկայում</li>
-            <li>✓ Coffee and Farmer Equity ծրագիր՝ արդար առևտուր և էկոլոգիա</li>
+            <li>✓ Coffee and Farmer Equity ծրագիր՝ կայուն գյուղատնտեսություն և արդար առևտուր</li>
           </ul>
         </div>
 
@@ -113,8 +113,8 @@ const StarbucksPresentation = () => {
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
             <li>✓ 30M+ Rewards անդամներ (ԱՄՆ)</li>
-            <li>✗ Գնային զգայունություն ապրանքների համար</li>
-            <li>✓ Բարձր հավատարմություն բրենդին</li>
+            <li>✗ Գնային զգայունություն Premium ապրանքների նկատմամբ</li>
+            <li>✓ Բարձր բրենդային հավատարմություն</li>
           </ul>
         </div>
 
@@ -126,7 +126,7 @@ const StarbucksPresentation = () => {
           <ul className="text-sm space-y-1 text-gray-700">
             <li>✗ Costa, Dunkin Donuts, McCafe, Tim Hortons</li>
             <li>✗ Հագեցած շուկա</li>
-            <li>✓ Բրենդային առավելություն</li>
+            <li>✓ Գլոբալ բրենդային առավելություն</li>
           </ul>
         </div>
 
@@ -136,9 +136,9 @@ const StarbucksPresentation = () => {
             <strong>Գնահատական: 2/5 (Ցածր)</strong>
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
-            <li>✓ Բարձր մուտքային ծախսեր</li>
+            <li>✓ Բարձր մուտքային ներդրումներ</li>
             <li>✓ Ուժեղ բրենդային պատնեշներ</li>
-            <li>✓ Էկոհամակարգի առավելություն</li>
+            <li>✓ Ինտեգրված էկոհամակարգի առավելություն</li>
           </ul>
         </div>
 
@@ -148,9 +148,9 @@ const StarbucksPresentation = () => {
             <strong>Գնահատական: 3/5 (Միջին)</strong>
           </p>
           <ul className="text-sm space-y-1 text-gray-700">
-            <li>✗ Թեյ, Energy drinks, RTD Coffee</li>
+            <li>✗ Թեյ, էներգետիկ ըմպելիքներ, պատրաստի սուրճ</li>
             <li>✗ Տնային սուրճի պատրաստում</li>
-            <li>✓ Premium փորձառություն որպես տարբերակիչ</li>
+            <li>✓ Premium սպառողական փորձառություն որպես տարբերակիչ գործոն</li>
           </ul>
         </div>
       </div>
@@ -163,7 +163,7 @@ const StarbucksPresentation = () => {
 
       <div className="bg-gray-100 p-4 rounded-lg text-center">
         <p className="font-bold text-lg">
-          📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցություն, բայց ուժեղ դիրքեր
+          📊 Ընդհանուր գնահատական: 3.2/5 - Բարձր մրցակցային միջավայր, սակայն Starbucks-ն ունի ամուր դիրքեր
         </p>
       </div>
     </div>
@@ -359,7 +359,7 @@ const StarbucksPresentation = () => {
         </div>
 
         <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-amber-500">
-          <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Հատուկ սեգմենտ</h4>
+          <h4 className="font-bold text-lg mb-2 text-amber-800">🎨 Special Segment</h4>
           <p className="text-sm mb-2"><strong>Դիրք:</strong> Բարձր որակ</p>
           <ul className="text-sm space-y-1 text-gray-700">
             <li>• Jazzve, Lumen Coffee, Vol 1, AfroLab, J Space, Ground Zero</li>
@@ -1151,7 +1151,7 @@ const StarbucksPresentation = () => {
             <h3 className="text-3xl font-bold mb-4">📢 ՄԵՐ ՎԵՐՋՆԱԿԱՆ ԱՌԱՋԱՐԿԸ</h3>
             <p className="text-xl mb-4">
               Starbucks-ը <span className="font-bold underline">ՊԵՏՔ Է</span> մտնի Հայաստանի շուկա, 
-              բայց <span className="font-bold underline">ՈՉԹԵ</span> որպես հերթական սրճարան։
+              բայց <span className="font-bold underline">ՈՉ</span> որպես հերթական սրճարան։
             </p>
             <p className="text-lg mb-6">
               Այն պետք է դիրքավորվի որպես <strong>կյանքի ոճի վայր</strong>, 
@@ -1175,7 +1175,7 @@ const StarbucksPresentation = () => {
 
           <div className="bg-amber-50 p-6 rounded-lg border-2 border-amber-400 text-center">
             <p className="text-lg font-semibold text-gray-800 mb-2">
-              💡 Հիմնական message
+              💡 Հիմնական գաղափար
             </p>
             <p className="text-gray-700">
               Հաջողությունը կախված է ոչ թե միայն ապրանքից, այլ <strong>փորձառությունից, 
@@ -1225,8 +1225,6 @@ const StarbucksPresentation = () => {
           </div>
           <p className="text-xl text-gray-600">
             Շնորհակալություն ուշադրության համար! ☕
-            <br />
-            <span className="text-gray-500 text-base">(Starbucks Armenia ռազմավարական վերլուծություն)</span>
           </p>
         </div>
       )
